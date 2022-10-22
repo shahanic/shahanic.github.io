@@ -1,0 +1,27 @@
+*
+{
+
+ padding: auto;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+    p {text-align: center;}
+    h1 {text-align: center;}
+    h3 {text-align: center;}
+    h4 {text-align: center;}
+
+body{
+    background: linear-gradient(#F5F5DC, #bbbb73);
+    overflow: hidden;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+#evil-button{
+    position: absolute;
+    white-space: nowrap;
+    font-size: larger;
+    {text-align: center;}
+}
