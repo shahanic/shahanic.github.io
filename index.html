@@ -18,6 +18,9 @@
     <div class="orb orb-3"></div>
   </div>
 
+  <!-- Grain overlay -->
+  <div class="grain"></div>
+
   <!-- Nav -->
   <nav class="glass-nav">
     <div class="nav-inner">
@@ -35,17 +38,32 @@
     <div class="hero-content">
       <p class="hero-eyebrow">Hello, I'm</p>
       <h1 class="hero-title">Shah<span class="accent">.</span></h1>
-      <p class="hero-sub">Developer in training — building things from scratch.</p>
+      <p class="hero-sub">Developer in training — building things from scratch, one commit at a time.</p>
       <div class="hero-cta">
         <a href="#projects" class="btn-glass">View Projects</a>
         <a href="#contact" class="btn-outline">Get in Touch</a>
       </div>
+      <!-- Social links — edit these URLs -->
+      <div class="hero-socials">
+        <a href="https://github.com/" target="_blank" class="social-link" title="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="social-link" title="Twitter / X">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="social-link" title="LinkedIn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
     </div>
-    <div class="hero-card glass-card">
-      <div class="card-line"><span class="tag">status</span><span class="val online">● available</span></div>
-      <div class="card-line"><span class="tag">stack</span><span class="val">HTML · CSS · JS</span></div>
-      <div class="card-line"><span class="tag">location</span><span class="val">Philippines 🇵🇭</span></div>
-      <div class="card-line"><span class="tag">learning</span><span class="val">Docker · Git</span></div>
+
+    <!-- Profile photo card -->
+    <div class="hero-photo-wrap">
+      <div class="photo-ring"></div>
+      <img src="assets/img/shah.jpg" alt="Shah" class="hero-photo" />
+      <div class="photo-badge glass-card">
+        <span class="badge-dot"></span> Open to work
+      </div>
     </div>
   </section>
 
@@ -53,21 +71,35 @@
   <section class="section" id="about">
     <div class="container">
       <h2 class="section-title">About <span class="accent">Me</span></h2>
-      <div class="about-grid">
-        <div class="glass-card about-card">
-          <div class="about-icon">🚀</div>
-          <h3>Building</h3>
-          <p>Currently learning web development from the ground up. This site is my training ground.</p>
+      <div class="about-layout">
+        <div class="about-bio glass-card">
+          <!-- Edit this paragraph to your liking -->
+          <p>I'm Shah, a self-taught developer from the Philippines building my foundations in web development. I care about clean code, good design, and shipping things that actually work. Currently learning Docker, Git, and everything in between.</p>
+          <div class="about-tags">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Docker</span>
+            <span class="pill">Git</span>
+            <span class="pill">Nginx</span>
+          </div>
         </div>
-        <div class="glass-card about-card">
-          <div class="about-icon">🛠️</div>
-          <h3>Tools</h3>
-          <p>VSCode, Docker, Ubuntu WSL, Git, GitHub — setting up a real developer workflow.</p>
-        </div>
-        <div class="glass-card about-card">
-          <div class="about-icon">🎯</div>
-          <h3>Goal</h3>
-          <p>Ship real projects, learn by doing, and get better every single day.</p>
+        <div class="about-cards">
+          <div class="glass-card about-card">
+            <div class="about-icon">🚀</div>
+            <h3>Building</h3>
+            <p>This site is my training ground — real stack, real deployment.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-icon">🛠️</div>
+            <h3>Tools</h3>
+            <p>VSCode, Docker, Ubuntu WSL, Git, GitHub.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-icon">🎯</div>
+            <h3>Goal</h3>
+            <p>Ship real projects, learn by doing, improve every day.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -78,19 +110,26 @@
     <div class="container">
       <h2 class="section-title">Projects</h2>
       <div class="projects-grid">
-        <div class="glass-card project-card">
-          <div class="project-tag">HTML · CSS · Docker</div>
+        <div class="glass-card project-card featured">
+          <div class="project-top">
+            <div class="project-tag">HTML · CSS · Docker</div>
+            <span class="project-year">2026</span>
+          </div>
           <h3>This Website</h3>
-          <p>My personal site — built with a Docker + Nginx setup and deployed on Netlify.</p>
-          <a href="#" class="project-link">View →</a>
+          <p>My personal portfolio site — built with a Docker + Nginx setup and deployed on Netlify. Designed and coded from scratch.</p>
+          <a href="#" class="project-link">View source →</a>
         </div>
         <div class="glass-card project-card coming">
-          <div class="project-tag">Coming Soon</div>
+          <div class="project-top">
+            <div class="project-tag">Coming Soon</div>
+          </div>
           <h3>Next Project</h3>
           <p>Something new is being built. Check back soon.</p>
         </div>
         <div class="glass-card project-card coming">
-          <div class="project-tag">Coming Soon</div>
+          <div class="project-top">
+            <div class="project-tag">Coming Soon</div>
+          </div>
           <h3>Next Project</h3>
           <p>Something new is being built. Check back soon.</p>
         </div>
@@ -103,17 +142,25 @@
     <div class="container">
       <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
       <div class="glass-card contact-card">
-        <p>Have a project in mind or just want to connect? Reach out.</p>
+        <p>Have a project in mind or just want to connect? I'm always open to new opportunities and conversations.</p>
+        <!-- Replace with your actual email -->
         <a href="mailto:youremail@gmail.com" class="btn-glass">Send a Message</a>
+        <div class="contact-socials">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <span>·</span>
+          <a href="https://twitter.com/" target="_blank">Twitter</a>
+          <span>·</span>
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>Built by Shah · 2026</p>
+    <p>Designed & built by Shah · 2026</p>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
