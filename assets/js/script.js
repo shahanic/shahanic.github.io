@@ -54,4 +54,22 @@ document.addEventListener('mousemove', (e) => {
   glow.style.top = e.clientY + 'px';
 });
 
+// Wait for the DOM to fully load
+window.addEventListener('DOMContentLoaded', () => {
+  // Select all h1 and p elements
+  const elements = document.querySelectorAll('h1, p');
+
+  // Add the 'fade-up' class to all selected elements
+  elements.forEach(el => {
+    el.classList.add('fade-up');
+  });
+
+  // Trigger the 'visible' class after a short delay
+  setTimeout(() => {
+    elements.forEach(el => {
+      el.classList.add('visible');
+    });
+  }, 100); // Adjust delay as needed
+});
+
 console.log('Shah site loaded ✓');
